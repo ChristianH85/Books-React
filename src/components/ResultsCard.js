@@ -26,7 +26,7 @@ class ResultsCard extends React.Component {
         handleSubmit=(event)=>{
             event.preventDefault()
             
-                axios.get(`https://www.googleapis.com/books/v1/volumes?q=this.state:keyes&key=AIzaSyB7YvSQOZdDQrI7MNPIOC8llHx5esbC0eM`)
+                axios.get(`https://www.googleapis.com/books/v1/volumes?q=`+`{this.state.search}`+`keyes&key=AIzaSyB7YvSQOZdDQrI7MNPIOC8llHx5esbC0eM`)
           .then(res => {
             console.log("got")
           })
