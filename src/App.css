@@ -17,6 +17,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.card{
+  background-color: rgb(179, 174, 174);
+  width:65%;
+  height:20em;
+  overflow: auto;
+}
+.search{
+  
+  color:teal;
+  background-color: bisque;
+}
 
 .App-link {
   color: #61dafb;
@@ -29,4 +40,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+.top{
+  background-color: #282c34;
+  color:beige;
+  font-size:3em;
+}
+.App-header{
+  background-image: url(./Books.JPG);
+  font-weight: 700;
+  width:100%;
+  color: rgb(199, 194, 194);
+  background-color: cadetblue;
+}
+footer{
+  height:8%;
+  width:100%;
+  color: rgb(199, 194, 194);
+  background-color: cadetblue;
 }
